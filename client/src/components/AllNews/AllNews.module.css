@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel-container {
+  border-radius: 15%;
+  overflow: hidden;
+  width: 1000px;
+  height: 700px;
+  border-radius: 15%;
+}
+
+.carousel-container img {
+  width: 1000px;
+  height: 700px;
+}
+
+.title {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: 700;
+}

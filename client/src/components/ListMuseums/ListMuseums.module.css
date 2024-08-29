@@ -1,0 +1,46 @@
+.wrapper {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.formWrapper {
+  border-radius: 15px;
+  height: 350px;
+  width: 600px;
+  background-color: #121721cc;
+}
+
+.form {
+  margin-top: 65px;
+  margin-left: 100px;
+  width: 400px;
+}
+
+.museumsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 90px;
+}
+
+.button {
+  width: 126px;
+  height: 45px;
+  border-radius: 50px;
+  color: black;
+  font-weight: 600;
+  background-color: #d3f85acf;
+  border: none;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid #d3f85acf;
+  color: #d3f85acf;
+}

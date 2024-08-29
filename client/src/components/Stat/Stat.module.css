@@ -1,0 +1,15 @@
+.wrapper {
+  padding-top: 50px;
+  padding-bottom: 190px;
+}
+
+.secondWrapper {
+  padding: 50px;
+  border-radius: 25px;
+  background-color: #121721cc;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}

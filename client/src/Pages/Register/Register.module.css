@@ -1,0 +1,11 @@
+.wrapper {
+  min-height: 100vh;
+  padding-top: 250px;
+  color: rgba(255, 255, 255, 0.828);
+
+  background-image: url('../../assets/images/registerlogo.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

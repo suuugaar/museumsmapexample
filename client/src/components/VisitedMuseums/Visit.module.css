@@ -1,0 +1,20 @@
+.wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: -20px;
+  min-height: 100vh;
+  position: relative;
+  border: none;
+  background-image: url('../../assets/images/sanat-photoaidcom-darken.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.card {
+  border-radius: 24px;
+  background-color: #121721cc;
+  color: white;
+  height: 350px;
+}

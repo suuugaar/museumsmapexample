@@ -1,0 +1,87 @@
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.wrapper {
+  padding: 30px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  border-radius: 24px;
+  background-color: #121721cc;
+}
+
+.inputs {
+  color: black;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inputs input {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.inputs textarea {
+  height: 200px;
+  resize: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.avatar {
+  border: 2px solid white;
+  width: 600px;
+  height: 400px;
+}
+
+.btn {
+  width: 126px;
+  height: 45px;
+  border-radius: 50px;
+  color: black;
+  font-weight: bold;
+  background-color: #d3f85acf;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: #d3f85acf;
+  border: 1px solid #d3f85acf;
+  background-color: transparent;
+}
+
+.addImg {
+  cursor: pointer;
+}
+
+.addImg button {
+  color: green;
+}
+
+.placeTitle {
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.86);
+  margin: 0;
+}
+
+.select {
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.photo {
+  width: 600px;
+  height: 500px;
+  border: 1px solid white;
+}

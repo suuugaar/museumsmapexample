@@ -1,0 +1,31 @@
+.title {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.recall_btn {
+  width: 200px;
+}
+
+.button {
+  width: 150px;
+  margin-bottom: 10px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #d3f85acf;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d3f85a9b;
+}
+
+.textarea {
+  color: black;
+  width: 50px;
+  height: 100px;
+  resize: none;
+}

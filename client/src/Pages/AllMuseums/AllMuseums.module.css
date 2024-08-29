@@ -1,0 +1,32 @@
+.wrapper {
+  min-height: 100vh;
+  padding-top: 190px;
+  padding-bottom: 90px;
+  color: white;
+  background-color: #040914;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  width: 126px;
+  height: 45px;
+  border-radius: 50px;
+  color: black;
+  font-weight: 600;
+  background-color: #d3f85acf;
+  border: none;
+  text-align: center;
+}

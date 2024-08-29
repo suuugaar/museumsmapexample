@@ -1,0 +1,85 @@
+.wrapper {
+  padding-top: 150px;
+  padding-bottom: 120px;
+  min-height: 100vh;
+  color: rgba(255, 255, 255, 0.828);
+  background-image: url('../../assets/images/favnewslogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.cardInfoWrapper {
+  margin-left: 465px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #121721cc;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.secondWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.noNewsTitle {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.image-container {
+  position: relative;
+}
+
+.photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel-container {
+  border-radius: 15%;
+  overflow: hidden;
+  width: 1000px;
+  height: 650px;
+  border-radius: 15%;
+}
+
+.carousel-container img {
+  width: 1000px;
+  height: 650px;
+}
+
+.title {
+  font-size: 30px;
+  color: rgb(239, 239, 239);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: 700;
+}

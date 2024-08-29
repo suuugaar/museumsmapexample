@@ -1,0 +1,72 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.noCardWrapper {
+  color: rgba(255, 255, 255, 0.747);
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #121721cc;
+}
+
+.button {
+  margin-left: 120px;
+  width: 126px;
+  height: 45px;
+  text-align: center;
+  border-radius: 50px;
+  color: black;
+  font-weight: 600;
+  background-color: #d3f85acf;
+  border: none;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid #d3f85acf;
+  color: #d3f85acf;
+}
+
+.cardInfoWrapper {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.804);
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #121721cc;
+  padding: 15px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.renewCard {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.804);
+}
+
+.successPay {
+  padding: 15px;
+  font-weight: 600;
+  border-radius: 15px;
+  color: #d3f85ad6;
+  background-color: #040914;
+}
+
+.successPay p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

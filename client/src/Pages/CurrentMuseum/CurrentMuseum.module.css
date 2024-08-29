@@ -1,0 +1,109 @@
+.wrapper {
+  min-height: 100vh;
+  padding-top: 250px;
+  padding-bottom: 190px;
+  color: white;
+  background-image: url('../../assets/images/sanat-photoaidcom-darken.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secondWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.museumWrapper {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  border-radius: 24px;
+  background-color: #040914;
+  border: none;
+  padding: 50px;
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 16px;
+}
+
+.museumWrapper img {
+  border-radius: 24px;
+  filter: brightness(85%);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.description {
+  text-align: justify;
+}
+
+.userSkills {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.recalls {
+  width: 900px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  border-radius: 24px;
+  background-color: #040914;
+  color: rgba(255, 255, 255, 0.849);
+}
+
+.recallTitle {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.backBtn {
+  width: 300px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #d3f85acf;
+  border: none;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.oneRecallWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 17px;
+  background-color: #121721cc;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.authorName {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.adminSkills {
+  background-color: #040914;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.redactWrapper {
+  background-color: #040914;
+  padding: 30px;
+  border-radius: 25px;
+}

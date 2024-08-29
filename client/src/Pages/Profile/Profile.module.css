@@ -1,0 +1,26 @@
+.wrapper {
+  min-height: 100vh;
+  padding-top: 190px;
+  padding-bottom: 190px;
+  color: white;
+  background-image: url('../../assets/images/homelogo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secondWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adminSkills {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+/* .workArea {
+  background-color: #121721cc;
+} */
